@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:textColor="@color/friends_detail_text"
+        android:layout_height="wrap_content"
+        android:background="@color/friends_detail"
+        android:id="@+id/complete">
+
+        <TextView
+            android:id="@+id/pay_names"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:paddingTop="30dp"
+            android:textAlignment="center"
+            android:textColor="@color/friends_detail_text"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            tools:text="A paid B" />
+
+     <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+         <TextView
+             android:layout_marginLeft="60dp"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:textColor="@color/friends_detail_text"
+             android:textSize="30sp"
+             android:text="Rs."
+             android:layout_gravity="center"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/amount_to_settle"
+            android:textColor="@color/friends_detail_text"
+            android:hint="00.00"
+            android:textSize="40sp"
+            android:inputType="numberDecimal"
+            />
+</LinearLayout>
+
+    <Button
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/save"
+        android:textColor="@color/category_background"
+        android:text="SAVE"/>
+
+
+</LinearLayout>
+
+
+
+

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:id="@+id/complete">
+
+    <TextView
+        android:id="@+id/owed_name"
+        android:layout_width="0dp"
+        android:layout_height="68dp"
+        android:layout_weight="2"
+        android:paddingTop="10dp"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        tools:text="Rucha " />
+
+    <LinearLayout
+        android:id="@+id/text_container"
+        android:layout_width="0dp"
+        android:layout_height="68dp"
+        android:layout_toRightOf="@id/owed_name"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/owed_type"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="bottom"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            tools:text="You are owed" />
+
+        <TextView
+            android:id="@+id/owed_amount"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="top"
+            android:textColor="@android:color/white"
+            tools:text="Rs.50" />
+    </LinearLayout>
+
+
+
+</LinearLayout>
+

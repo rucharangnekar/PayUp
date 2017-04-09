@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="drawer_array">
+        <item>Add Transaction</item>
+        <item>Add Personal Expense</item>
+        <item>About</item>
+        <item>Logout</item>
+    </string-array>
+
+</resources>

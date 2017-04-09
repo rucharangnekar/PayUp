@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/one"
+        android:title="Paid by you and split equally"/>
+
+    <item
+        android:id="@+id/two"
+        android:title="They owe the full amount"/>
+
+    <item
+        android:id="@+id/three"
+        android:title="You owe the full amount"/>
+
+    <item
+        android:id="@+id/four"
+        android:title="Paid by the other person and split equally"/>
+
+
+</menu>

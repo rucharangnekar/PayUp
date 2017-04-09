@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "286570965942",
+    "firebase_url": "https://payup4-efedf.firebaseio.com",
+    "project_id": "payup4-efedf",
+    "storage_bucket": "payup4-efedf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:286570965942:android:2142d3e0d82448a2",
+        "android_client_info": {
+          "package_name": "com.example.android.payup4"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "286570965942-552lsrnc8kjgv4mpq7bjju996i88cr7o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.payup4",
+            "certificate_hash": "fad8ba3fcb839c4179f921ea91b13df82ce4b28a"
+          }
+        },
+        {
+          "client_id": "286570965942-bvc13secf9pure4hgbl1gp6pqj5cvupb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBc5rd_innEJDihQN3hUo-YAkoXm6M-ZAw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "286570965942-bvc13secf9pure4hgbl1gp6pqj5cvupb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

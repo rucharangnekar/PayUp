@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:id="@+id/complete1">
+
+    <LinearLayout
+        android:id="@+id/name_and_desc"
+        android:layout_width="0dp"
+        android:layout_height="68dp"
+        android:layout_toRightOf="@id/owed_name"
+        android:layout_weight="2"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/owed_name1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:paddingTop="10dp"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        tools:text="Rucha " />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/desc"
+            android:text="No description added"
+            android:textAlignment="center"
+            />
+</LinearLayout>
+    <LinearLayout
+        android:id="@+id/text_container"
+        android:layout_width="0dp"
+        android:layout_height="68dp"
+        android:layout_toRightOf="@id/owed_name"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/owed_type1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="bottom"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            tools:text="You are owed" />
+
+        <TextView
+            android:id="@+id/owed_amount1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="top"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            tools:text="Rs.50" />
+    </LinearLayout>
+
+
+</LinearLayout>

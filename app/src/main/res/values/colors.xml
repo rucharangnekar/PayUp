@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#c92025</color> <!--app bar-->
+    <color name="colorPrimaryDark">#b2374f</color><!--lighter red-->
+    <color name="colorAccent">#f4e1e4</color><!--white-->
+    <color name="category_friends">#00BCD4</color><!--cyan-->
+    <color name="category_group">#00BCD4</color><!--blue-->
+    <color name="category_recent">#00BCD4</color><!--blue-->
+    <color name="category_background">#e8dedf</color><!--blue-->
+
+    <color name="friends_detail">#6fd5d5</color>
+    <color name="friends_detail_text">#0e2828</color>
+    <color name="friends_detail_pay_up">#c92025</color>
+    <color name="black">#000000</color>
+    <color name="white">#c1bdbd</color>
+    <color name="shadow_grey">#efeded</color>
+
+    <color name="green">#0e990c</color>
+    <color name="red">#e34137</color>
+
+
+
+</resources>
